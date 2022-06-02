@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+    background-color: antiquewhite;
+}
+
+.Glass{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.Navigation{
+    display:flex;
+    justify-content: space-between;
+    padding:40px;
+}
+
+.top-left{
+    display:flex;
+}
+
+.Navigation .top-left div {
+    margin-right:20px; 
+    font-size:90%;
+    text-transform: uppercase;
+}
+
+.top-left-link{
+    height: 25px;
+    border-bottom: 2px solid transparent;
+    transition: 1s;
+}
+
+.top-left-link a {
+   color:#8a8a8a;
+   text-decoration: none;
+   transition: color 2s;
+}
+
+.top-left-link:hover {
+   border-bottom: 1px solid black ;
+}
+
+.top-left-link a:hover{
+    color:black;
+}
+.top-right .BRAND {
+    color:blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+    filter: blur(0.5)
+}
